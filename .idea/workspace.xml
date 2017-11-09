@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffdb53c5-8509-4b04-9603-7956eca7691e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration/models.py" afterPath="$PROJECT_DIR$/registration/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PokharaRhinos/settings.py" afterPath="$PROJECT_DIR$/PokharaRhinos/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,8 +107,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PokharaRhinos/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="354">
+              <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -203,44 +202,7 @@
             <path>
               <item name="PokharaRhinos" type="b2602c69:ProjectViewProjectNode" />
               <item name="PokharaRhinos" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PokharaRhinos" type="b2602c69:ProjectViewProjectNode" />
               <item name="PokharaRhinos" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PokharaRhinos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokharaRhinos" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PokharaRhinos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokharaRhinos" type="462c0819:PsiDirectoryNode" />
-              <item name="discard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PokharaRhinos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokharaRhinos" type="462c0819:PsiDirectoryNode" />
-              <item name="landingpage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PokharaRhinos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokharaRhinos" type="462c0819:PsiDirectoryNode" />
-              <item name="PokharaRhinos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PokharaRhinos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokharaRhinos" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PokharaRhinos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokharaRhinos" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -611,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PokharaRhinos/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="354">
+          <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
           <folding />
         </state>
       </provider>
