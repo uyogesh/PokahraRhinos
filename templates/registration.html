@@ -1,0 +1,163 @@
+<!doctype html>
+{% load static %}
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
+        <!--<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="{% static '/css/plugins.css' %}" />
+
+        <link rel="stylesheet" href="{% static '/css/raleway-webfont.css' %}" />
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="{% static '/css/style.css' %}">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="{% static '/css/responsive.css' %}" />
+
+        <script src="{% static  'js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
+         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+            <script>
+     $(function(){
+        if (!Modernizr.inputtypes.date) {
+        // If not native HTML5 support, fallback to jQuery datePicker
+            $('input[type=date]').datepicker({
+                // Consistent format with the HTML5 picker
+                    dateFormat : 'yy-mm-dd'
+                },
+                // Localization
+                $.datepicker.regional['it']
+            );
+        }
+    });
+      </script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> -->
+                    <a class="navbar-brand" href="index.html"><img src="{% static '/images/icon-crop.png' %}" alt="" /></a>
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#footer">Contact</a></li>
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+    <section class="reg-form" style = "padding-top:180px; padding-left:75px; padding-bottom:150px;">
+    <div class="container" style="line-space:2;">
+        <div style="padding-left:200px; padding-bottom:100px; color:#000" >
+            <h2>Register With Us!!</h2>
+            <h6>Fields marked * are mandetory</h6>
+        </div>
+
+            <form action="/registration/" method="post">
+                 <table>
+                {% csrf_token %}
+                {{ form.as_table }}
+
+
+
+
+
+
+        </table>
+            <input type='submit' value="Submit">
+
+                </form>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+      <footer id="footer" class="sections footer different-bg">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="footer-first-content">
+                        <div class="logo"><img src="{% static '/images/icon-crop.png' %}" alt="Club Logo" /></div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="footer-last-content">
+                        <h4>Our Address</h4>
+                        <p></p>
+
+                        <div class="contact-info">
+                            <p><i class="fa fa-map-marker"></i>Kathmandu</p>
+                            <p><i class="fa fa-phone"></i>+977-1-4111822</p>
+                            <p><i class="fa fa-envelope"></i>vig.123@gmail.com</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+	<div class="scroll-top">
+
+		<div class="scrollup">
+			<i class="fa fa-angle-double-up"></i>
+		</div>
+
+	</div>
+
+
+    <script src="{% static '/js/vendor/jquery-1.11.2.min.js' %}"></script>
+    <script src="{% static '/js/vendor/bootstrap.min.js' %}"></script>
+
+
+    <script src="{% static '/js/plugins.js' %}"></script>
+    <script src="{% static '/js/modernizr.js;' %}"></script>
+    <script src="{% static '/js/main.js' %}"></script>
+
+</body>
+</html>
