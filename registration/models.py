@@ -31,6 +31,8 @@ class RegistrationFormModel(Model):
     health_issues = models.CharField(max_length=20,choices=[('Yes','Yes'),('No','No')],default='Select')
     other_details = models.CharField(max_length=100)
 
+    def __str__(self):
+        return self.first_name+' '+self.last_name
 
 
 
